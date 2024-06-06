@@ -1,6 +1,4 @@
 # Welcome to Gift Store!
-*For Windows - [please refer this](README-Windows.md)*
-
 This is where you can start to get familiar with the problem and what you need to run it.
 This codebase is used during code pairing session for JOI initiative.
 It's focused on identifying code smells, refactoring and testing legacy codebase while promoting conversations.
@@ -27,14 +25,14 @@ Get familiar with the codebase! Make sure you have the necessary dependencies in
 ## Build
 #### Note: Run the below command only when the tests are fixed.
 ```console
-source ./buildapp
+call buildapp.bat
 ```
 
 ## Run Tests
 #### Note: Initially the tests will fail. You need to fix them.
 ```console
 cd build
-./GiftStoreAppTest
+GiftStoreAppTest.exe
 cd ..
 ```
 
@@ -42,7 +40,7 @@ cd ..
 To understand how this application would be used you can check the `main` method in the `src/GiftStore.cpp`. If you want to see the results, run:
 ```console
 cd build
-./GiftStoreApp
+GiftStoreApp.exe
 cd ..
 ```
 
